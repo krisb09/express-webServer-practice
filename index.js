@@ -5,6 +5,8 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
+console.log(app);
+
 app.get('/api/courses', (req, res) => {
     res.send(['Node', 'Express', 'MongoDB']);
 });
